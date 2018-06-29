@@ -34,7 +34,6 @@ public class FilesLines {
         int maxDepth = 5;
         try (Stream<Path> stream = Files.walk(start, maxDepth)) {
             stream.forEach(System.out::println);
-
         }
 
     }
