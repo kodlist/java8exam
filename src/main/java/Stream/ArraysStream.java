@@ -1,5 +1,7 @@
 package Stream;
 
+import org.omg.Messaging.SYNC_WITH_TRANSPORT;
+
 import java.util.Arrays;
 
 import java.util.stream.IntStream;
@@ -40,9 +42,16 @@ public class ArraysStream {
 
         System.out.println(Arrays.toString(result3));
 
+        System.out.print("=====================================================================");
 
         System.out.println("Sum : "+IntStream.range(1, 3).sum());
-        System.out.println("Average : "+IntStream.range(1, 101).average().getAsDouble());
+        System.out.println("Average : "+ IntStream.range(1, 101).average().getAsDouble());
+        IntStream.rangeClosed(1, 3).forEach(System.out::println);
+        System.out.println("=========rangeClosed vs range against IntStream method ==========");
+        IntStream.range(1, 3).forEach(System.out::println);
+
         IntStream.range(1, 101).filter(i -> i % 2 == 0).count();
+
+        System.out.print("=====================================================================");
     }
 }
