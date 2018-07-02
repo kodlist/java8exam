@@ -15,7 +15,16 @@ import java.util.Date;
  *
  * Instant class : This class is immutable and thread-safe.
  *
- * package : java.time.Instant
+ * package : java.time.Instant  , java.time.LocalDate; java.time.LocalDateTime;
+ *
+ * since java 1.8
+ *
+ * LocalDate
+ * LocalTime
+ * ZoneId
+ *
+ * https://docs.oracle.com/javase/8/docs/api/java/time/LocalTime.html
+ * https://docs.oracle.com/javase/8/docs/api/java/time/ZoneId.html
  */
 public class InstantTimeStamp {
 

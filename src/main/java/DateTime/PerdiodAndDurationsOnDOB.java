@@ -13,6 +13,17 @@ import java.time.temporal.ChronoUnit;
  *
  * we can figure out how manys passed out since you are born.
  *
+ *
+ *
+ * since java 1.8
+ *
+ * LocalDate
+ * LocalTime
+ * ZoneId
+ *
+ * https://docs.oracle.com/javase/8/docs/api/java/time/LocalTime.html
+ * https://docs.oracle.com/javase/8/docs/api/java/time/ZoneId.html
+ *
  */
 public class PerdiodAndDurationsOnDOB {
 
