@@ -7,8 +7,10 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.Month;
 import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Locale;
 
 /**
  * Created by mkoduri on 7/2/2018.
@@ -22,6 +24,8 @@ import java.util.Date;
  * LocalDate
  * LocalTime
  * ZoneId
+ * LocalDateTime
+ * DateTimeFormatter
  *
  * https://docs.oracle.com/javase/8/docs/api/java/time/LocalTime.html
  * https://docs.oracle.com/javase/8/docs/api/java/time/ZoneId.html
@@ -45,11 +49,38 @@ public class InstantTimeStamp {
         LocalDateTime now = LocalDateTime.now();
         System.out.println(dateFormat3.format(now));
 
+        // Current date and time
+        LocalDateTime dateTime = LocalDateTime.now();
+
+        // Format as basic ISO date format
+        String asBasicIsoDate = dateTime.format(DateTimeFormatter.BASIC_ISO_DATE);
+        System.out.println("BASIC ISO DATE : " + asBasicIsoDate);
+
+        // Format as ISO week date
+        String asIsoWeekDate = dateTime.format(DateTimeFormatter.ISO_WEEK_DATE);
+        System.out.println("ISO WEEK DATE : " + asIsoWeekDate);
+
+        // Format ISO date time
+        String asIsoDateTime = dateTime.format(DateTimeFormatter.ISO_DATE_TIME);
+        System.out.println("ISO DATE TIME : " + asIsoDateTime);
+
+        // Use a custom pattern: day / month / year
+        String asCustomPattern = dateTime.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+        System.out.println("Custom pattern : " + asCustomPattern);
+
+
+        // Use short US date/time formatting
+        DateTimeFormatter formatter1 = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT).withLocale(new Locale("en-US"));
+        String usDateTime = dateTime.format(formatter1);
+        System.out.println("US locale : " + usDateTime);
+
         System.out.println("=========== java.time.Instant =============");
         // Get the current time
         Instant instant = Instant.now();
         // Output format is ISO-8601
         System.out.println(instant);
+
+
 
 
         System.out.println("=========== LocalDate =============");
