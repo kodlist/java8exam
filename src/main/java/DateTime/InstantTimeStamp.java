@@ -1,16 +1,13 @@
 package DateTime;
 
+import sun.security.jca.GetInstance;
+
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.time.Instant;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.Month;
+import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.Locale;
+import java.util.*;
 
 /**
  * Created by mkoduri on 7/2/2018.
@@ -78,10 +75,38 @@ public class InstantTimeStamp {
         // Get the current time
         Instant instant = Instant.now();
         // Output format is ISO-8601
-        System.out.println(instant);
+        System.out.println(" instant :  "+instant);
 
+        ZoneId zoneid1 = ZoneId.of("Europe/Copenhagen");
+        ZoneId zoneid2 = ZoneId.of("Asia/Tokyo");
+        LocalTime id1 = LocalTime.now(zoneid1);
+        LocalTime id2 = LocalTime.now(zoneid2);
+        System.out.println("Europe/Copenhagen  : "+id1);
+        System.out.println("Asia/Tokyo  : "+id2);
+        // get clock with desired time-zone
 
+        /*"=======This part doesnt work - Clock.system(ZoneId.of(\"America/Chicago\") ")*/
+        Clock clock = Clock.system(ZoneId.of("America/Chicago"));
+        Instant instant1 = Instant.now(clock);
+        System.out.println("instant1 :  "+instant1);
 
+        Clock clock1 = Clock.system(ZoneId.of("Europe/Copenhagen"));
+        Instant instant2 = Instant.now(clock1);
+        System.out.println("instant2 :  "+instant2);
+
+        /*===============================================================================*/
+        TimeZone timeZone1 = TimeZone.getTimeZone("America/Los_Angeles");
+        TimeZone timeZone2 = TimeZone.getTimeZone("Europe/Copenhagen");
+
+        Calendar calendar = new GregorianCalendar();
+        calendar.setTimeZone(timeZone1);
+        ;
+        System.out.println("timeLA   = " + calendar.getTime());
+        System.out.println("hour     = " + calendar.get(Calendar.HOUR_OF_DAY));
+
+        TimeZone timeZoneLA = TimeZone.getTimeZone("America/Los_Angeles");
+        ZoneId zoneIdLA = timeZoneLA.toZoneId();
+        System.out.println("ZoneId from custom 'LA' TimeZone: " + zoneIdLA);
 
         System.out.println("=========== LocalDate =============");
         // 1979-02-15
@@ -103,6 +128,7 @@ public class InstantTimeStamp {
         LocalDate programmerDay1 = LocalDate.ofYearDay(2018, 183);
         System.out.println(programmerDay1);
         System.out.println(programmerDay1.getMonth() + "   "+ programmerDay1.getMonthValue());
+
 
 
 
