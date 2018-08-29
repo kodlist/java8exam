@@ -37,6 +37,7 @@ public class PerdiodAndDurationsOnDOB {
     public static void main(String[] args) throws InterruptedException {
 
 
+        System.out.println("============= Dys between today and time your born =============");
         LocalDate today = LocalDate.now();
         LocalDate birthday = LocalDate.of(1974, Month.SEPTEMBER, 15);
         Period p = Period.between(birthday, today);
@@ -62,6 +63,7 @@ public class PerdiodAndDurationsOnDOB {
 
         // Current time
         Instant now3 = Instant.now();
+        System.out.println("======= now3 ========="+ now3);
         // Wait __appropximately__ 1 second
         Thread.sleep(10000);
         // Current time
@@ -69,6 +71,46 @@ public class PerdiodAndDurationsOnDOB {
         // Calculate real duration
         long minutes = Duration.between(now3, now4).toMinutes();
         System.out.println("Duration (min) : " + minutes);
+
+        System.out.println("======== period ============ ");
+        Period p1 = Period.between(LocalDate.now(), LocalDate.of(2017, Month.AUGUST, 1));
+        System.out.println(p1);
+        Duration d = Duration.between(  LocalTime .now(), LocalTime.of(12, 00, 00));
+       System.out.println("time duration: "+d);
+        //Duration d = Duration.between(LocalDate.now(), LocalDate.of(2015, Month.SEPTEMBER, 1)); System.out.println(d);
+
+        Duration d2 = Duration.ofMillis(1100);
+        System.out.println("duration of ofMillis : "+d2);
+        d = Duration.ofSeconds(61);
+        System.out.println("duration 1 minute and 1 secound : "+d);
+
+        Duration d1 = Duration.ofDays(1);
+        System.out.println("duration of days:  "+d1);
+        System.out.println("========================================");
+
+        LocalDateTime ld = LocalDateTime.of(2015, Month.OCTOBER, 31, 10, 0);
+        ZonedDateTime date = ZonedDateTime.of(ld, ZoneId.of("US/Eastern"));
+        System.out.println(" ld zone : "+ date);
+        date = date.plus(Duration.ofDays(1));
+        System.out.println(date);
+        date = ZonedDateTime.of(ld, ZoneId.of("US/Eastern"));
+        date = date.plus(Period.ofDays(1));
+        System.out.println(date);
+        System.out.println(" Period.ofDays(1) : "+ Period.ofDays(1));
+        System.out.println(" Duration.ofDays(1) : "+ Duration.ofDays(1));
+
+
+        Duration dx = Duration.ofDays(1);
+        System.out.println(dx);
+        dx = Duration.ofMinutes(0);
+        System.out.println(dx);
+        Period px = Period.ofMonths(0);
+        System.out.println(px);
+
+        Duration ds = Duration.ofMillis(1100);
+        System.out.println(ds);
+        ds = Duration.ofSeconds(61);
+        System.out.println(ds);
     }
 }
 

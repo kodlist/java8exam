@@ -18,8 +18,19 @@ public class ReductionAndDecomposition {
         Integer sum = list.stream().reduce( 0, (n1, n2) -> n1+n2);
         System.out.println(sum);
 
-        sum = list.stream().reduce(0, Integer::sum);
+        sum = list.stream().reduce(2, Integer::sum);
         System.out.println(sum);
+
+        sum = list.stream().reduce( 1,(n1, n2) -> n1+n2);
+        System.out.println(sum);
+        System.out.println("========== lin 26 =======");
+        sum = list.stream().reduce(2, Integer::max);
+        System.out.println(sum);
+
+        System.out.println("========== lin 30 =======");
+        sum = list.stream().reduce(2, Integer::min);
+        System.out.println(sum);
+
 
     }
 }

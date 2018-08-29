@@ -20,7 +20,7 @@ public class MergeExample {
         // null removes mapping for the key:
         prices.merge("fruits", 7, (oldVal, newVal) -> {
             System.out.printf("Old val: %d, new val: %d%n", oldVal, newVal);
-            return null;
+            return newVal;
         });
         System.out.println("Prices map: " + prices);
 

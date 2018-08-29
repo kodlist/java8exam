@@ -48,7 +48,7 @@ public class InstantTimeStamp {
 
         // Current date and time
         LocalDateTime dateTime = LocalDateTime.now();
-
+        System.out.println("=========== java.time.LocalDateTime ISO Dates =============");
         // Format as basic ISO date format
         String asBasicIsoDate = dateTime.format(DateTimeFormatter.BASIC_ISO_DATE);
         System.out.println("BASIC ISO DATE : " + asBasicIsoDate);
@@ -66,6 +66,7 @@ public class InstantTimeStamp {
         System.out.println("Custom pattern : " + asCustomPattern);
 
 
+        System.out.println("=========== DateTimeFormatter  LocalizedDateTime=============");
         // Use short US date/time formatting
         DateTimeFormatter formatter1 = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT).withLocale(new Locale("en-US"));
         String usDateTime = dateTime.format(formatter1);
@@ -109,6 +110,10 @@ public class InstantTimeStamp {
         System.out.println("ZoneId from custom 'LA' TimeZone: " + zoneIdLA);
 
         System.out.println("=========== LocalDate =============");
+        LocalDate currentDate = LocalDate.now();
+        System.out.println(currentDate);
+
+        System.out.println("=============  ==========");
         // 1979-02-15
         LocalDate feb15th = LocalDate.of(1979, Month.FEBRUARY, 15);
         System.out.println(feb15th);
@@ -128,6 +133,18 @@ public class InstantTimeStamp {
         LocalDate programmerDay1 = LocalDate.ofYearDay(2018, 183);
         System.out.println(programmerDay1);
         System.out.println(programmerDay1.getMonth() + "   "+ programmerDay1.getMonthValue());
+
+
+        ZoneId minsk = ZoneId.ofOffset("GMT", ZoneOffset.ofHours(+3));
+        ZoneId berlin = ZoneId.of("Europe/Berlin");
+
+// Current date and time
+        LocalDateTime dateTime2 = LocalDateTime.now();
+        System.out.println("Here : " + dateTime2);
+        System.out.println("=============ZonedDateTime =========");
+
+        ZonedDateTime minskDateTime = ZonedDateTime.of(dateTime2, minsk);
+        System.out.println("Minsk : " + minskDateTime);
 
 
 

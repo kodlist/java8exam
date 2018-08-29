@@ -4,6 +4,7 @@ import org.omg.Messaging.SYNC_WITH_TRANSPORT;
 
 import java.util.Arrays;
 
+import java.util.OptionalDouble;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -53,5 +54,23 @@ public class ArraysStream {
         IntStream.range(1, 101).filter(i -> i % 2 == 0).count();
 
         System.out.print("=====================================================================");
+
+
+        System.out.println("========line 58");
+        IntStream is1 = IntStream.of(1, 2,4, 5);
+        OptionalDouble x = is1.filter(i->i%2 == 0).average();
+        System.out.println("prints as OptionalDouble : "+x);
+        System.out.println(" ======== " + x.getAsDouble());
+
+        System.out.println("========line 65");
+
+        int[] cgpa =  { 2, 3, 2, 4, 3, 2 };
+        OptionalDouble od = Arrays.stream(cgpa, 2, 3).average();
+        System.out.println(od.orElse(0.0));
+
+
+        OptionalDouble od1 = Arrays.stream(cgpa, 0, 6).filter( x1 -> x1>=2 && x1<3).average();
+        System.out.println(od1.orElse(0.0));
+
     }
 }

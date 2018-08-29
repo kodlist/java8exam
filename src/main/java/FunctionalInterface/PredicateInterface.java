@@ -6,6 +6,18 @@ import java.util.function.IntPredicate;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
+/*
+
+@FunctionalInterface
+public interface Predicate<T extends Object> {
+
+    public boolean test(T t);
+
+    ...
+
+}
+
+ */
 
 
 interface UserY{

@@ -2,6 +2,7 @@ package LambdaExp;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;
+import java.util.function.UnaryOperator;
 
 public class LambdaClass2 {
 
@@ -50,8 +51,16 @@ public class LambdaClass2 {
 	    
 	    Function <String, String>       f9 = String::toUpperCase; 
 		System.out.println(  f9.apply("jack"));
-		
-		
+
+
+
+		String val1 = "hello";
+		//val1 = val1+"jj";
+		StringBuilder val2 = new StringBuilder("world");
+		UnaryOperator<String> uo1 = s1->s1.concat(val1);
+		//A lambda expression in a method can make use of a local variable if it is declared as final or if it is effectively final.
+		// It basically means that a variable that is not declared final can still be considered as final if its value is never changed in the program.
+		//Therefore, you can use val1 in the lambda expression at line 60 (  uo1 )
 		
 		
 		

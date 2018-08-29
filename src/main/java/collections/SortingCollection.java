@@ -67,15 +67,19 @@ public class SortingCollection {
         result1.stream().forEach(System.out::println);
         System.out.println("==============================================");
 
-        System.out.println("================= Using stream with comparator =============================");
+        System.out.println("================= Using stream with comparator in java 8 (first way)  =============================");
         //sorting in java 8
-        le.stream().sorted(new Comparator<Employee>() {  public int compare(Employee o1, Employee o2) {   return o1.getName().compareTo(o2.getName());
+        le.stream().sorted(new Comparator<Employee>() {
+            @Override
+            public int compare(Employee o1, Employee o2)
+            {
+                return o1.getName().compareTo(o2.getName());
             } }).map(x -> x.getName()).collect(Collectors.toList()).forEach(System.out::println);
 
-        System.out.println("================= Using stream with comparator =============================");
+        System.out.println("================= Using stream with comparator in java 8 (second way) =============================");
         le.stream().sorted((Employee e1, Employee e2) -> e2.getName().compareTo(e1.getName())).map(x -> x.getName()).collect(Collectors.toList()).forEach(System.out::println);
 
-        System.out.println("================= Using comparator on sort method =============================");
+        System.out.println("================= Using comparator on sort method in java 8 (third way) =============================");
         le.sort( (e1, e2) -> e1.getName().compareTo(e2.getName()))  ;
         le.forEach((e) ->  System.out.println(e.getName()));
 

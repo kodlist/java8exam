@@ -52,6 +52,11 @@ public class StreanWithPredicateConsumer {
 		
 		emps.stream().filter(p1).filter(p2).forEach(c);
 
+
+		int i = 10;
+		System.out.println(11+"ee");
+
+
 	}
 
 }

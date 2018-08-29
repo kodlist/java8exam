@@ -1,6 +1,7 @@
 package Files;
 
 import java.io.IOException;
+import java.nio.charset.Charset;
 import java.nio.file.*;
 import java.nio.file.Paths;
 import java.util.List;
@@ -35,6 +36,14 @@ public class FilesLines {
         try (Stream<Path> stream = Files.walk(start, maxDepth)) {
             stream.forEach(System.out::println);
         }
+        System.out.println("===================== JAVA 8 Files.walk =========================");
+        try (Stream<Path> stream = Files.walk(start)) {
+            stream.forEach(System.out::println);
+        }
+
+        Stream<String> lines = Files.lines(Paths.get("/foo/bar/baz.a"), Charset.defaultCharset());
+
+        System.out.println(Charset.defaultCharset());
 
     }
 }

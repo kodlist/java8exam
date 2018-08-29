@@ -2,7 +2,9 @@ package FunctionalInterface;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Locale;
 import java.util.function.Function;
+import java.util.function.UnaryOperator;
 
 //source code copied =========== Function Interface ==========
 /*public interface Function<T, R> {
@@ -58,9 +60,20 @@ public class FunctionInterface {
 		List<String> cstNameLsit = convertCustomersToNamesList(cstList, fcs);
 		
 		cstNameLsit.forEach(System.out::println);
-		
-		
-		
+
+
+		System.out.println("============== String manipulation -=============");
+
+		String name = "bob"; String val = null;
+
+		Function<Locale, String > f = name::toUpperCase;
+		val = f.apply(Locale.CANADA);
+		System.out.println( "val : "+ val);
+
+
+
+
+
 	}
 	
 	
