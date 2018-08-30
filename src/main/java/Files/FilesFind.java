@@ -14,7 +14,7 @@ import java.util.stream.Stream;
  */
 public class FilesFind {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args)  {
 
         System.out.println("===================== JAVA 8 =========================");
 
@@ -37,6 +37,9 @@ public class FilesFind {
                             .collect(Collectors.joining("; "));
 
             System.out.println("Found: " + joined);
+        }catch(IOException IO)
+        {
+            System.out.println(" io exception : "+ IO);
         }
 
 
@@ -57,6 +60,9 @@ public class FilesFind {
         {
             // Consume only the first 5 from the stream:
             paths.limit(5).forEach(System.out::println);
+        }catch(IOException IO)
+        {
+            System.out.println(" io exception : "+ IO);
         }
 
 

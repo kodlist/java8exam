@@ -2,58 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a93010-e476-418d-80fe-8118cd66d18c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Concurrency/AtomicOperations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Concurrency/ThreadStartJoin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/DateTime/LocaleClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/DateTime/TemporalClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/FunctionalInterface/BiPredicateInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/FunctionalInterface/BifunctionInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/FunctionalInterface/GeneralInterfaceWithMethods.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Maps/ComputeMethodsInMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Stream/IntStreamClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Stream/StreamAndFlatMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Stream/StreamCollectMethod.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Stream/StreamMethods.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Files/FilesFind$1.class" afterPath="$PROJECT_DIR$/target/classes/Files/FilesFind$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Files/FilesFind.class" afterPath="$PROJECT_DIR$/target/classes/Files/FilesFind.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Files/FilesLines.class" afterPath="$PROJECT_DIR$/target/classes/Files/FilesLines.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FunctionalInterface/ConsumerInterface.class" afterPath="$PROJECT_DIR$/target/classes/FunctionalInterface/ConsumerInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FunctionalInterface/Customer.class" afterPath="$PROJECT_DIR$/target/classes/FunctionalInterface/Customer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FunctionalInterface/FunctionInterface.class" afterPath="$PROJECT_DIR$/target/classes/FunctionalInterface/FunctionInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FunctionalInterface/PredicateInterface.class" afterPath="$PROJECT_DIR$/target/classes/FunctionalInterface/PredicateInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FunctionalInterface/StreanWithPredicateConsumer.class" afterPath="$PROJECT_DIR$/target/classes/FunctionalInterface/StreanWithPredicateConsumer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FunctionalInterface/UnaryOperatorInterface.class" afterPath="$PROJECT_DIR$/target/classes/FunctionalInterface/UnaryOperatorInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/LambdaExp/LambdaClass2.class" afterPath="$PROJECT_DIR$/target/classes/LambdaExp/LambdaClass2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/MergeMethodOfMap/MergeExample.class" afterPath="$PROJECT_DIR$/target/classes/MergeMethodOfMap/MergeExample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Stream/ArraysStream.class" afterPath="$PROJECT_DIR$/target/classes/Stream/ArraysStream.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Stream/Item.class" afterPath="$PROJECT_DIR$/target/classes/Stream/Item.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Stream/ReductionAndDecomposition.class" afterPath="$PROJECT_DIR$/target/classes/Stream/ReductionAndDecomposition.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Stream/StreamClass.class" afterPath="$PROJECT_DIR$/target/classes/Stream/StreamClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Stream/StreamCollectorsGroupingby.class" afterPath="$PROJECT_DIR$/target/classes/Stream/StreamCollectorsGroupingby.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Stream/StreamsParallelVSSequential.class" afterPath="$PROJECT_DIR$/target/classes/Stream/StreamsParallelVSSequential.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/collections/CollectionEnhancement.class" afterPath="$PROJECT_DIR$/target/classes/collections/CollectionEnhancement.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/collections/SortingCollection$1.class" afterPath="$PROJECT_DIR$/target/classes/collections/SortingCollection$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/collections/SortingCollection.class" afterPath="$PROJECT_DIR$/target/classes/collections/SortingCollection.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DateTime/InstantTimeStamp.java" afterPath="$PROJECT_DIR$/src/main/java/DateTime/InstantTimeStamp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DateTime/LocalDateAndTime.java" afterPath="$PROJECT_DIR$/src/main/java/DateTime/LocalDateAndTime.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DateTime/PerdiodAndDurationsOnDOB.java" afterPath="$PROJECT_DIR$/src/main/java/DateTime/PerdiodAndDurationsOnDOB.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Files/FilesFind.java" afterPath="$PROJECT_DIR$/src/main/java/Files/FilesFind.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Files/FilesLines.java" afterPath="$PROJECT_DIR$/src/main/java/Files/FilesLines.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/FunctionalInterface/ConsumerInterface.java" afterPath="$PROJECT_DIR$/src/main/java/FunctionalInterface/ConsumerInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/FunctionalInterface/FunctionInterface.java" afterPath="$PROJECT_DIR$/src/main/java/FunctionalInterface/FunctionInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/FunctionalInterface/PredicateInterface.java" afterPath="$PROJECT_DIR$/src/main/java/FunctionalInterface/PredicateInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/FunctionalInterface/StreanWithPredicateConsumer.java" afterPath="$PROJECT_DIR$/src/main/java/FunctionalInterface/StreanWithPredicateConsumer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/FunctionalInterface/UnaryOperatorInterface.java" afterPath="$PROJECT_DIR$/src/main/java/FunctionalInterface/UnaryOperatorInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/LambdaExp/LambdaClass2.java" afterPath="$PROJECT_DIR$/src/main/java/LambdaExp/LambdaClass2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MergeMethodOfMap/MergeExample.java" afterPath="$PROJECT_DIR$/src/main/java/MergeMethodOfMap/MergeExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Stream/ArraysStream.java" afterPath="$PROJECT_DIR$/src/main/java/Stream/ArraysStream.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Stream/ReductionAndDecomposition.java" afterPath="$PROJECT_DIR$/src/main/java/Stream/ReductionAndDecomposition.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Stream/StreamClass.java" afterPath="$PROJECT_DIR$/src/main/java/Stream/StreamClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Stream/StreamCollectorsGroupingby.java" afterPath="$PROJECT_DIR$/src/main/java/Stream/StreamCollectorsGroupingby.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Stream/StreamsParallelVSSequential.java" afterPath="$PROJECT_DIR$/src/main/java/Stream/StreamsParallelVSSequential.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/collections/CollectionEnhancement.java" afterPath="$PROJECT_DIR$/src/main/java/collections/CollectionEnhancement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/collections/SortingCollection.java" afterPath="$PROJECT_DIR$/src/main/java/collections/SortingCollection.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,36 +20,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="BifunctionInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/FunctionalInterface/BifunctionInterface.java">
+      <file leaf-file-name="FilesFind.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Files/FilesFind.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            <state relative-caret-position="896">
+              <caret line="71" column="70" lean-forward="true" selection-start-line="71" selection-start-column="70" selection-end-line="71" selection-end-column="70" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FilesFind.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Files/FilesFind.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1458">
-              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FilesLines.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FilesLines.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Files/FilesLines.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,48 +43,8 @@
       <file leaf-file-name="FileAttributesOfJava7.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Files/FileAttributesOfJava7.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
+            <state relative-caret-position="396">
               <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StreamAndFlatMap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Stream/StreamAndFlatMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="63" column="42" lean-forward="true" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ComputeMethodsInMap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Maps/ComputeMethodsInMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArraysStream.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Stream/ArraysStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="71" column="94" lean-forward="false" selection-start-line="71" selection-start-column="94" selection-end-line="71" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -192,9 +89,7 @@
         <option value="$PROJECT_DIR$/src/main/java/FunctionalInterface/BiPredicateInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/collections/CollectionEnhancement.java" />
         <option value="$PROJECT_DIR$/src/main/java/Stream/StreamsParallelVSSequential.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Files/FilesFind.java" />
         <option value="$PROJECT_DIR$/src/main/java/Stream/StreamClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Files/FilesLines.java" />
         <option value="$PROJECT_DIR$/src/main/java/DateTime/InstantTimeStamp.java" />
         <option value="$PROJECT_DIR$/src/main/java/DateTime/PerdiodAndDurationsOnDOB.java" />
         <option value="$PROJECT_DIR$/src/main/java/DateTime/TemporalClass.java" />
@@ -217,14 +112,16 @@
         <option value="$PROJECT_DIR$/src/main/java/Stream/StreamAndFlatMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/Maps/ComputeMethodsInMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/Stream/ArraysStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Files/FilesFind.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Files/FilesLines.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="2902" />
-    <option name="height" value="1582" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -241,8 +138,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -290,10 +185,6 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stream" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -316,10 +207,16 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -750,41 +647,48 @@
       <option name="project" value="LOCAL" />
       <updated>1530681241286</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="committing new classes">
+      <created>1535523527767</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1535523527767</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="2902" height="1582" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3834746" sideWeight="0.5576389" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990113" sideWeight="0.6958333" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980227" sideWeight="0.49027777" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10887949" sideWeight="0.5576389" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3834746" sideWeight="0.44236112" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3834746" sideWeight="0.44236112" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19895834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990113" sideWeight="0.6958333" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980227" sideWeight="0.49027777" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1182,26 +1086,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FunctionalInterface/BifunctionInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="270">
           <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Files/FilesFind.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Stream/ArraysStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1458">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="493">
+          <caret line="71" column="94" lean-forward="false" selection-start-line="71" selection-start-column="94" selection-end-line="71" selection-end-column="94" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Files/FilesLines.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Maps/ComputeMethodsInMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="473">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Stream/StreamAndFlatMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="63" column="42" lean-forward="false" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
@@ -1210,42 +1120,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Files/FileAttributesOfJava7.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
+        <state relative-caret-position="396">
           <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Stream/StreamAndFlatMap.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Files/FilesFind.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="63" column="42" lean-forward="true" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="896">
+          <caret line="71" column="70" lean-forward="true" selection-start-line="71" selection-start-column="70" selection-end-line="71" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Maps/ComputeMethodsInMap.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Files/FilesLines.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Stream/ArraysStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="71" column="94" lean-forward="false" selection-start-line="71" selection-start-column="94" selection-end-line="71" selection-end-column="94" />
+        <state relative-caret-position="180">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
           <folding />
         </state>
       </provider>
