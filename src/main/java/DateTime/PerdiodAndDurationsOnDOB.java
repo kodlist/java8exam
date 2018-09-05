@@ -103,14 +103,14 @@ public class PerdiodAndDurationsOnDOB {
         Duration dx = Duration.ofDays(1);
         System.out.println(dx);
         dx = Duration.ofMinutes(0);
-        System.out.println(dx);
+        System.out.println("===== LINE 106 ==== "+dx);
         Period px = Period.ofMonths(0);
         System.out.println(px);
 
         Duration ds = Duration.ofMillis(1100);
-        System.out.println(ds);
+        System.out.println("===== line 111 ==== "+ds);
         ds = Duration.ofSeconds(61);
-        System.out.println(ds);
+        System.out.println("===== line 113 ==== "+ds);
     }
 }
 
