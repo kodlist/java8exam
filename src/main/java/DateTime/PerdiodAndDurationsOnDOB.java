@@ -94,7 +94,7 @@ public class PerdiodAndDurationsOnDOB {
         date = date.plus(Duration.ofDays(1));
         System.out.println(date);
         date = ZonedDateTime.of(ld, ZoneId.of("US/Eastern"));
-        date = date.plus(Period.ofDays(1));
+        date = date.plus(Period.ofDays(0));
         System.out.println(date);
         System.out.println(" Period.ofDays(1) : "+ Period.ofDays(1));
         System.out.println(" Duration.ofDays(1) : "+ Duration.ofDays(1));
@@ -102,7 +102,7 @@ public class PerdiodAndDurationsOnDOB {
 
         Duration dx = Duration.ofDays(1);
         System.out.println(dx);
-        dx = Duration.ofMinutes(0);
+        dx = Duration.ofMinutes(1);
         System.out.println("===== LINE 106 ==== "+dx);
         Period px = Period.ofMonths(0);
         System.out.println(px);
