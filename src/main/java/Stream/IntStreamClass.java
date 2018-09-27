@@ -1,9 +1,6 @@
 package Stream;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Optional;
-import java.util.OptionalDouble;
+import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -61,10 +58,10 @@ public class IntStreamClass {
         //Collectors.groupingBy - takes Function ex: items.stream().collect(  Collectors.groupingBy(ItemX::getCategory));
                                                 // ex:  items.stream().collect( Collectors.averagingDouble(  priceF));
 
-        Object v1 = IntStream.rangeClosed(10, 15).boxed().filter(x->x>12).parallel().findAny();
-        Object v2 = IntStream.rangeClosed(10, 15).boxed().filter(x->x>12).sequential().findAny();
+        Optional v1 = IntStream.rangeClosed(10, 15).boxed().filter(x->x>12).parallel().findAny();
+        Optional v2 = IntStream.rangeClosed(10, 15).boxed().filter(x->x>12).sequential().findAny();
 
-        System.out.println(v1 +"  :  "+ v2);
+        System.out.println("====== line 67 ===== "+v1.get() +"  :  "+ v2);
         Optional o1 = IntStream.rangeClosed(10, 15).boxed().filter(x->x>12).sequential().findFirst();
         Integer o2 = IntStream.rangeClosed(10, 15).boxed().filter(x->x>12).sequential().findFirst().get();
         int o3 =  IntStream.rangeClosed(10, 15).boxed().filter(x->x>12).sequential().findFirst().get().intValue();
@@ -93,11 +90,24 @@ public class IntStreamClass {
 
         List<String> strList = Arrays.asList("a", "aa", "aaa");
 
-
+        System.out.println("=======line 96 =======");
         Function<String, Integer> f = x->x.length();
         strList.stream().map(f).forEach(s-> System.out.println("  len "+s));
+        System.out.println("======line 99 =======");
+        strList.stream().forEach( s-> System.out.println("  len "+s) );
+        System.out.println("=====line101 =========");
+        int sizeoflist = strList.size();
 
+        // java 7 vs java 8 (see above line 87)
+        for ( String s:strList ) {
+           // System.out.println( s  + " "+s.length());
+                if(s.length()>2)
+                {
+                    System.out.println(s);
+                }
+        }
 
+        System.out.println("======line 106 ========");
         System.out.println("=========line 99 ===============");
 
         int[] values = new int[]{ 3,4,2,1 };
@@ -113,6 +123,33 @@ public class IntStreamClass {
         Stream<String> s= Arrays.stream(stre);
 
 
+        OptionalInt is = IntStream.range(1, 4).reduce((a, b)->a+b);
+        System.out.println( is.getAsInt() + "  ");
 
+        IntStream is2 = IntStream.rangeClosed(1, 4);
+        int sum = is2.reduce(0, (a, b)->a+b);
+        System.out.println(sum);
+
+
+
+        List<Book> books1 = Arrays.asList( new Book("Freedom at Midnight", 5),
+                new Book("Gone with the wind", 5),
+                new Book("Midnight Cowboy", 15) );
+
+       // Reader r = (x) -> { x.getTitle();} ;
+
+        Reader r = b->{     System.out.println("Reading book "+b.getTitle());};
+        books1.forEach( x-> r.read(x)  );
+
+
+
+
+    }
+    interface Reader{
+
+        default void read(Book b){
+
+        }
+        void unread(Book b);
     }
 }

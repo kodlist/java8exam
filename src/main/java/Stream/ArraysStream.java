@@ -4,6 +4,7 @@ import org.omg.Messaging.SYNC_WITH_TRANSPORT;
 
 import java.util.Arrays;
 
+import java.util.List;
 import java.util.OptionalDouble;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -71,6 +72,12 @@ public class ArraysStream {
 
         OptionalDouble od1 = Arrays.stream(cgpa, 0, 6).filter( x1 -> x1>=2 && x1<3).average();
         System.out.println(od1.orElse(0.0));
+
+
+        List<Integer> list = Arrays.asList(10, 11, 30, 30, 25, 68);
+        Integer i[] = {3,32};
+        list.toArray(i);
+        System.out.println(list);
 
     }
 }

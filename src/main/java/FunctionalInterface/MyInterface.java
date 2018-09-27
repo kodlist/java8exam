@@ -9,6 +9,9 @@ interface YInterface{
 	//Every class that implements the interface inherits the interface's default methods and can override them.
 	 
 	void m2();
+	void doItNow();
+	static void doxe() {}
+	static void doxr() {}
 }
 
 //*******************************************************//
@@ -31,6 +34,8 @@ interface ZInterface{
 interface ZInterface{
 	default void m1() {}  
 	void doItNow(); // Single Abstract Method (SAM)
+	default void m2() {}
+
 }
 
 
@@ -44,6 +49,7 @@ interface GInterface{
 	static void dox() {}
 	//public void doI() {} // this will be compile fail
 	public void doY();
+	default void m6() {}
 	
 }
 

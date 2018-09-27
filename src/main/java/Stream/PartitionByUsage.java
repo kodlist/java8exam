@@ -2,6 +2,7 @@ package Stream;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
@@ -49,6 +50,11 @@ public class PartitionByUsage {
         list.stream()
                 .collect(Collectors.partitioningBy(s -> s.getAge() > 20))
                 .forEach((n,g) ->  System.out.println("n : "+n + "  "+ ((List<Student>)g).stream().map(s->s.getName()).collect(Collectors.joining(",")))  );
+
+
+
+        System.out.println("=========== line 53 ========");
+
 
 
     }

@@ -3,6 +3,8 @@ package DateTime;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
+import java.util.Locale;
+import java.util.function.Predicate;
 
 /**
  * Created by mkoduri on 7/2/2018.
@@ -105,6 +107,17 @@ public class LocalDateAndTime {
         Duration d = Duration.between(LocalDateTime.now(), LocalDateTime.of(2018, Month.AUGUST, 15, 10, 07));
         System.out.println(" LINE 106 :"+ d);
 
+
+
+        String str1 = "2 Sep 2018 09:00";
+        DateTimeFormatter formatter5 = DateTimeFormatter.ofPattern("d MMM uuuu HH:mm", Locale.ENGLISH);
+        LocalDateTime dateTime5 = LocalDateTime.parse(str1, formatter5);
+        System.out.println("========line 113 ======" +dateTime5);
+
+
+
     }
+
+
 }
 

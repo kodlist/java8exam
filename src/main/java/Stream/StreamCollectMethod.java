@@ -104,10 +104,12 @@ public class StreamCollectMethod {
 
         System.out.println(names.stream().collect(Collectors.mapping(x->x, Collectors.summarizingInt(x->x))).getSum());
         System.out.println(names.stream().collect(Collectors.summarizingInt(x->x)).getSum());
-
+        System.out.println("=========== line 107 ===========");
         List<Book> books = Arrays.asList(         new Stream.Book("Freedom at Midnight", 5),
-                new Book("Gone with the wind", 5),
-                new Book("Midnight Cowboy", 15) );
+                                                     new Book("Gone with the wind", 5),
+                                                     new Book("Midnight Cowboy", 15) );
+
+
         books.stream()
                 .filter(b->b.getTitle().startsWith("F")).forEach(b->b.setPrice(10)  );
 
@@ -118,7 +120,11 @@ public class StreamCollectMethod {
         System.out.println(  "d1 :  "+ (d1.doubleValue()+12.2));
 
         List<Double> dList = Arrays.asList(10.0, 12.0);
-        dList.stream().forEach(x->{ x = x+10; });
+
+        dList.stream().forEach(x->{ x = x+10;
+            System.out.println(x); });
+
+
         dList.stream().forEach(d->System.out.println(d));
 
 

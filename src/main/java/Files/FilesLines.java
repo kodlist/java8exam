@@ -46,7 +46,7 @@ public class FilesLines {
 
          */
 
-        System.out.println("===================== JAVA 8 Files.readAllLines =========================");
+        System.out.println("===================== JAVA 7 Files.readAllLines =========================");
         List<String> list = Files.readAllLines(f);
         list.stream().forEach(System.out::println);
 

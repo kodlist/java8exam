@@ -80,10 +80,10 @@ public class StreamMethods {
         ToDoubleFunction<ItemX> priceF = ItemX::getPrice;
         //Map<String, List<Stream.ItemX>> map;
         Map<String, List<ItemX>> map = items.stream().collect(  Collectors.groupingBy(ItemX::getCategory));
-
+        Map<String, List<ItemX>> map1 = items.parallelStream().collect(Collectors.groupingBy(ItemX::getCategory));
         map.forEach( (x, y) -> System.out.println(   " line 84 : "+ x  + " :  "  + y ));
        // map.forEach(  (x,y) -> System.out.println(  y.forEach( z -> System.out.println( z.getName())   )));
-
+        map1.forEach( (x, y) -> System.out.println(   " line 86 : "+ x  + " :  "  + y ));
         map = items.stream().collect(  Collectors.groupingBy(s-> s.getCategory()));
         map.forEach( (x, y) -> System.out.println(   " line 88 : "+ x  + " :  "  + y ));
         System.out.println("====================line 85 =======");
@@ -120,6 +120,40 @@ public class StreamMethods {
 
         String word = letters.stream().reduce("", (a, b)->a.concat(b));
         System.out.println(word);
+
+
+
+        String source = "hello,world,hi,u,hello|world|hu";
+        source = "123434|str1,123434|str2,123434|str3";
+
+        Arrays.stream(source.split(",")).forEach( a-> System.out.println(a)  )  ;
+        System.out.println("============line 130 \n\n");
+        Arrays.stream(source.split(",")).map(s->s.split("\\|")   ).forEach(a->System.out.println(a[0]+" "+a[1]));
+
+        System.out.println("============line 131 \n\n");
+
+
+        Map<Long, String> resultMap =   Arrays.stream(source.split(","))
+                .map(s -> s.split("\\|"))
+                .collect(  Collectors.toMap ( s -> { System.out.println(" 1: "+Long.valueOf ( s[0]));  return Long.valueOf ( s[0]);} ,
+                                              s -> { System.out.println(" 2: "+s[1]);return s[1]; },
+                                              ( (v1, v2) -> {   System.out.println("------ line 131 : "+v1 +"  "+v2); return v2 ;}  )
+                                            )
+                         );
+
+
+        System.out.println("========");
+        System.out.println(resultMap);
+
+       /* Arrays.stream(source.split(",")).forEach( a-> System.out.println(a)  )  ;
+        Arrays.stream(source.split(",")).map(s->s.split("\\|")   ).forEach(a->System.out.println(a[0]+" "+a[1]));  ;
+
+
+
+        Arrays.stream(source.split(","));*/
+
+
+
 
     }
 }

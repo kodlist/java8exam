@@ -77,7 +77,8 @@ public class PerdiodAndDurationsOnDOB {
         System.out.println(p1);
         Duration d = Duration.between(  LocalTime .now(), LocalTime.of(12, 00, 00));
        System.out.println("time duration: "+d);
-        //Duration d = Duration.between(LocalDate.now(), LocalDate.of(2015, Month.SEPTEMBER, 1)); System.out.println(d);
+      //  Duration d4 = Duration.between(LocalDate.now(), LocalDate.of(2015, Month.SEPTEMBER, 1));
+       // System.out.println(d);
 
         Duration d2 = Duration.ofMillis(1100);
         System.out.println("duration of ofMillis : "+d2);
